@@ -1,0 +1,152 @@
+div h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.accordionBody {
+    display: flex;
+    justify-content: space-between;
+    background: gainsboro 0% 0% no-repeat padding-box;
+    cursor: pointer;
+    width: 230px;
+    padding-left: 10px;
+    margin-left: 24px;
+    padding-right: 10px;
+    margin-top: -38px;
+}
+
+
+.borderBottom {
+    width: 15.5em;
+    margin-top: 20px;
+    margin-left: 28px;
+    background: gainsboro
+}
+
+
+.collapse {
+    overflow: hidden;
+    transition: height 0.2s ease-in-out;
+}
+
+@media only screen and (min-width: 20rem) {
+    .title {
+        font-weight: 700;
+        color: #000;
+        font-size: 9px;
+        line-height: 17px;
+    }
+
+    .children {
+        font-size: 12px;
+        width: 100px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .accordion {
+        width: 200px;
+        min-height: 4rem;
+        
+    }
+}
+
+@media only screen and (max-width: 37.5rem) {
+    .title {
+        font-weight: 700;
+        color: #000;
+        font-size: 9px;
+        line-height: 17px;
+    }
+
+    .children {
+        font-size: 12px;
+        padding: 10px;
+        text-align: left;
+
+    }
+
+    .accordion {
+        width: 18.875rem;
+        min-height: 4rem;
+    }
+}
+
+@media only screen and (min-width: 37.5rem) {
+    .title {
+        font-weight: 700;
+        color: #000;
+        font-size: 9px;
+        line-height: 17px;
+    }
+
+    .children {
+        font-size: 12px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .accordion {
+        width: 20.875rem;
+        min-height: 4rem;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    .title {
+        font-weight: 700;
+        color: #000;
+        font-size: 9px;
+        line-height: 17px;
+    }
+
+    .children {
+        font-size: 12px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .accordion {
+        // width: 40.875rem;
+        min-height: 4rem;
+    }
+}
+
+@media only screen and (min-width: 62rem) {
+    .title {
+        font-weight: 700;
+        color: #000;
+        font-size: 9px;
+        line-height: 17px;
+    }
+
+    .children {
+        font-size: 12px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .accordion {
+        min-height: 4rem;
+    }
+}
+
+@media only screen and (min-device-width: 48rem) and (max-device-width: 64rem) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .title {
+        font-weight: 700;
+        color: #000;
+        font-size: 9px;
+        line-height: 17px;
+    }
+
+    .children {
+        font-size: 12px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .accordion {
+        // width: 40.875rem;
+        min-height: 4rem;
+    }
+}

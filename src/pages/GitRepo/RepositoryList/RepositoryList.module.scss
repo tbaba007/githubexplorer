@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E0E0E0;
+    height: auto;
+    padding-bottom: 5px;
+
+    &__leftContent{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        :nth-child(1){
+           font-weight: bold;
+           text-align: left;
+        }
+        :nth-child(2){
+            max-width: 150px;
+            overflow: scroll;
+        }
+    }
+    &__rightContent{
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+}
